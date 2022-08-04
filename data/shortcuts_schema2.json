@@ -1,0 +1,12 @@
+[
+  {
+    "modifier": ["Capslock"],
+    "key": "q",
+    "description": "toggle Logseq note app open and hide"
+  },
+  {
+    "modifier": ["Capslock"],
+    "key": "e",
+    "description": "toggle Edge browser app open and hide"
+  }
+]

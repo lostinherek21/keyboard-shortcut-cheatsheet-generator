@@ -5,15 +5,20 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && npx webpack"
+    "build": "tsc && npx webpack",
+    "start": "tsc && node ./dist/main.js"
   },
   "author": "zxx",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "yaml": "^2.1.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.182",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   }
