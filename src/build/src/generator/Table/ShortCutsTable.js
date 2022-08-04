@@ -4,6 +4,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Widget_1 = __importDefault(require("./Widget"));
+/**
+ *
+ *
+ * @param {ShortcutsSchema} items
+ * @param {string} title
+ * @return {*}
+ */
 function createShortcutsTable(items, title) {
     function createTable() {
         return Widget_1.default.newNode('table');

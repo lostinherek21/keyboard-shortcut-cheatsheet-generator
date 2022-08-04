@@ -1,6 +1,13 @@
 import W from './Widget'
 import type { Shortcuts as ShortcutsSchema } from '../Parser'
 
+/**
+ *
+ *
+ * @param {ShortcutsSchema} items
+ * @param {string} title
+ * @return {*}
+ */
 function createShortcutsTable(items:ShortcutsSchema,title:string) {
 
     function createTable() {
